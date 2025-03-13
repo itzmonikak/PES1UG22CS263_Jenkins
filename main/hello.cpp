@@ -1,6 +1,6 @@
 //File: hello.cpp
-//commented
-//changed
+//commented changes made
+//new change
 #include <iostream>
 using namespace std;
 

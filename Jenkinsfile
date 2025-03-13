@@ -6,12 +6,13 @@ pipeline {
         BRANCH = 'main'
         BINARY_NAME = 'hello'
         SOURCE_FILE = 'main/hello.cpp'  // <-- FIXED PATH
-    
+    }
 
     stages {
         stage('Clean Workspace') {
             steps {
-                deleteDir()
+                sh 'exit 1'  
+                //deleteDir()
             }
         }
 
